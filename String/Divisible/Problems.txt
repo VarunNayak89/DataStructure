@@ -1,0 +1,28 @@
+One Hour Take Home Test
+
+Note
+- Use your favorite programming language
+- Write efficient programs
+- Try to work out the problems as much as you can in code and code comments
+- Submit results in a plain text file, no later than 65 minutes after receiving the test
+Problems
+1. Write a program to assemble a list of digits (0-9) into the largest number efficiently,
+represented by a string. There could be duplicates in the list, and the list could contain
+thousands of digits.
+Example:
+[1, 1, 2, 3] -> “3211”
+2. Similar to Prob 1, but now assemble a list of digits into the largest number divisible by 5. If
+such a number does not exist, output 0.
+Examples:
+[1, 2, 3, 3] -> “0”
+[5, 1, 0] -> “510”
+[4, 3, 5, 5] -> “5435”
+3. Similar to Prob 1, but now assemble a list of digits into the largest number divisible by 3. Note
+you can discard digits if cannot not be used. If such a number does not exist, output 0.
+Examples:
+[1, 2, 3, 1] -> “321”
+[1, 1, 3, 3] -> “33”
+[2, 2, 3, 3] -> “33”
+[2, 5] -> “0”
+4. Bonus. Similar to Prob 3, but now assemble a list of digits into the largest number divisible by
+15. Note you can discard digits if cannot not be used. If such a number does not exist, output 0.

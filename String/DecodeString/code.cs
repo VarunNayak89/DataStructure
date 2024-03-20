@@ -3,6 +3,11 @@ using System;
 //Company : Scalar AI, 2024 , Online code
 
 /*
+
+Trim method : remove current string leading & Trailing white-space characters
+Trim end    : remove current string trailing white space characters
+Trim Start  : remove current string leading white space characters
+
 Given a string encoded for transfer to the receiver, the encoding conditions are as follows:
 
 Reverse each character for each word.
